@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie w pole NAZWISKO tesktu zawierającego  polskie znaki</description>
+   <name>R12</name>
+   <tag>#negatywny #znaki_specjalne</tag>
+   <comment></comment>
+   <testCaseGuid>22c0fda7-5dfd-4e06-b743-e8cdd4c2127f</testCaseGuid>
+</TestCaseEntity>
