@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie w pole NAZWISKO tesktu zawierającego znaki specjalne</description>
+   <name>R18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0d28c49-fd36-491a-a75b-24983ad32109</testCaseGuid>
+</TestCaseEntity>
