@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie hasła o niepoprawnej składni w pole HASŁO i pozostawienie pustego pola POWTÓRZ HASŁO</description>
+   <name>R6</name>
+   <tag>#nagetywny #wrongpassword #emptypassword2</tag>
+   <comment></comment>
+   <testCaseGuid>03aade6b-c373-44c9-bb30-c0d0e749b52d</testCaseGuid>
+</TestCaseEntity>
