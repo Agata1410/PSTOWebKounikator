@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie cyfr w pole IMIĘ</description>
+   <name>R15</name>
+   <tag>#numeber_name</tag>
+   <comment></comment>
+   <testCaseGuid>b1bfd9bb-9a63-48e8-a184-edf4aa5e8f8f</testCaseGuid>
+</TestCaseEntity>
