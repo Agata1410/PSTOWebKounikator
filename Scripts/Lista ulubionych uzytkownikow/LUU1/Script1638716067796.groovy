@@ -17,3 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
+
+WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'Ameba1')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+    'myv0lBmsSyROlAcxYzyYyg==')
+
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
+
+WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/div_Agata Bazur'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Agata Bazur_starFavourite'))
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Agata Bazur_starFavourite'))
+
+WebUI.closeBrowser()
+
