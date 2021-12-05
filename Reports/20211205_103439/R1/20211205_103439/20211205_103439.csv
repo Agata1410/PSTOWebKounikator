@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+R1,,,,2021-12-05 10:34:53,2021-12-05 10:34:55,"2,402s",ERROR
+,,,,,,,
+Test Cases/Rejestracja/R1,,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:34:54,2021-12-05 10:34:54,"0,111s",ERROR
+,,,,,,,
+Test Cases/Rejestracja/R1,,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:34:54,2021-12-05 10:34:54,"0,041s",ERROR
+,,,,,,,
+Test Cases/Rejestracja/R1,,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:34:55,2021-12-05 10:34:55,"0,072s",ERROR
+,,,,,,,
+Test Cases/Rejestracja/R1,,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:34:55,2021-12-05 10:34:55,"0,022s",ERROR
+,,,,,,,
+Test Cases/Rejestracja/R1,,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:34:55,2021-12-05 10:34:55,"0,014s",ERROR

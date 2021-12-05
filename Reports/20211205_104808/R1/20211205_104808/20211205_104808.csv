@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+R1,Firefox 94.0,,,2021-12-05 10:48:14,2021-12-05 10:49:12,"58,905s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Firefox 94.0,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:48:14,2021-12-05 10:48:29,"15,008s",FAILED
+"openBrowser("""")",Firefox 94.0,,,2021-12-05 10:48:16,2021-12-05 10:48:26,"10,596s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-05 10:48:26,2021-12-05 10:48:27,"1,074s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto""))",Firefox 94.0,,,2021-12-05 10:48:27,2021-12-05 10:48:28,"0,891s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username""), username)",Firefox 94.0,,,2021-12-05 10:48:28,2021-12-05 10:48:29,"0,896s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1""), password)",Firefox 94.0,,,2021-12-05 10:48:29,2021-12-05 10:48:29,"0,384s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Firefox 94.0,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:48:30,2021-12-05 10:48:40,"10,735s",FAILED
+"openBrowser("""")",Firefox 94.0,,,2021-12-05 10:48:30,2021-12-05 10:48:38,"7,801s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-05 10:48:38,2021-12-05 10:48:39,"1,078s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto""))",Firefox 94.0,,,2021-12-05 10:48:39,2021-12-05 10:48:39,"0,732s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username""), username)",Firefox 94.0,,,2021-12-05 10:48:39,2021-12-05 10:48:40,"0,817s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1""), password)",Firefox 94.0,,,2021-12-05 10:48:40,2021-12-05 10:48:40,"0,269s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Firefox 94.0,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:48:41,2021-12-05 10:48:51,"10,548s",FAILED
+"openBrowser("""")",Firefox 94.0,,,2021-12-05 10:48:41,2021-12-05 10:48:48,"7,667s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-05 10:48:48,2021-12-05 10:48:49,"1,097s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto""))",Firefox 94.0,,,2021-12-05 10:48:49,2021-12-05 10:48:50,"0,723s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username""), username)",Firefox 94.0,,,2021-12-05 10:48:50,2021-12-05 10:48:51,"0,788s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1""), password)",Firefox 94.0,,,2021-12-05 10:48:51,2021-12-05 10:48:51,"0,248s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Firefox 94.0,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:48:51,2021-12-05 10:49:02,"10,448s",FAILED
+"openBrowser("""")",Firefox 94.0,,,2021-12-05 10:48:51,2021-12-05 10:48:59,"7,458s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-05 10:48:59,2021-12-05 10:49:00,"1,105s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto""))",Firefox 94.0,,,2021-12-05 10:49:00,2021-12-05 10:49:01,"0,699s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username""), username)",Firefox 94.0,,,2021-12-05 10:49:01,2021-12-05 10:49:02,"0,888s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1""), password)",Firefox 94.0,,,2021-12-05 10:49:02,2021-12-05 10:49:02,"0,246s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Firefox 94.0,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-05 10:49:02,2021-12-05 10:49:12,"10,468s",FAILED
+"openBrowser("""")",Firefox 94.0,,,2021-12-05 10:49:02,2021-12-05 10:49:10,"7,541s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-05 10:49:10,2021-12-05 10:49:11,"1,099s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto""))",Firefox 94.0,,,2021-12-05 10:49:11,2021-12-05 10:49:11,"0,689s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username""), username)",Firefox 94.0,,,2021-12-05 10:49:11,2021-12-05 10:49:12,"0,855s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1""), password)",Firefox 94.0,,,2021-12-05 10:49:12,2021-12-05 10:49:12,"0,248s",FAILED
