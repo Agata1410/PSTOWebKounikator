@@ -17,3 +17,38 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
+
+for (def row = 1; row <= findTestData('Rejestracja/tabR17').getRowNumbers(); row++) {
+    data = new Date().getTime()
+
+    username = ('Ameba' + data)
+
+    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username'), username)
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass1'), findTestData(
+            'Rejestracja/tabR17').getValue('password', row))
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_pass2'), findTestData(
+            'Rejestracja/tabR17').getValue('password2', row))
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_name'), findTestData(
+            'Rejestracja/tabR17').getValue('name', row))
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_surname'), findTestData(
+            'Rejestracja/tabR17').getValue('surname', row))
+
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_kodgrupy'), findTestData(
+            'Rejestracja/tabR17').getValue('group', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
+
+    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+}
+
+WebUI.closeBrowser()
+
