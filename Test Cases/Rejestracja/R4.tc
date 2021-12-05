@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pozostawienie pustego pola: POWTÓRZ HASŁO</description>
+   <name>R4</name>
+   <tag>#negatywny #empty_password2</tag>
+   <comment></comment>
+   <testCaseGuid>bedaee54-3b5f-45ee-a2f6-3ed24d7de3ca</testCaseGuid>
+</TestCaseEntity>
