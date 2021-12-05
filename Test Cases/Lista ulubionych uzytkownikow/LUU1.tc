@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Możliwość dodania do ULUBIONYCH ROZMÓWCÓW</description>
+   <name>LUU1</name>
+   <tag>#favorite</tag>
+   <comment></comment>
+   <testCaseGuid>fa47813d-76c0-4562-8302-ec61a48c6295</testCaseGuid>
+</TestCaseEntity>
