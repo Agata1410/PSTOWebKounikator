@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie imienia i nazwiska istniejącego w bazie (inna NAZWA UŻYTKOWNIKA)</description>
+   <name>R10</name>
+   <tag>#pozytywny #samename #samesurname</tag>
+   <comment></comment>
+   <testCaseGuid>15f8c876-73d3-4345-84c9-46bf257cff01</testCaseGuid>
+</TestCaseEntity>
