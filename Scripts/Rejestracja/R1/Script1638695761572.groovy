@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
+
 data = new Date().getTime()
 
 username = ('Ameba' + data)
 
 for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row++) {
-    WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
-
     WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
 
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username'), username)
@@ -46,6 +46,8 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row+
             'Rejestracja/tabR1').getValue('group', row))
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
+
+    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
 }
 
 WebUI.closeBrowser()
