@@ -42,14 +42,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='witaj'])[1]/following::div[151]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='witaj'])[1]/following::div[167]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ameba Ameba'])[1]/following::div[152]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ameba Ameba'])[1]/following::div[168]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,5 +71,19 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='witaj'])[1]/following::div[151]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ameba Ameba'])[1]/following::div[152]</value>
    </webElementXpaths>
 </WebElementEntity>
