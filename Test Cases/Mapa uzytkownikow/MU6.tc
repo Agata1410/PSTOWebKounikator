@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pinezki użytkowników</description>
+   <name>MU6</name>
+   <tag>#map</tag>
+   <comment></comment>
+   <testCaseGuid>7cdfcbaa-e115-4302-8143-a5fe323c80f0</testCaseGuid>
+</TestCaseEntity>
