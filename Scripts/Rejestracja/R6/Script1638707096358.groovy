@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
-data = new Date().getTime()
-
-username = ('Ameba' + data)
-
 for (def row = 1; row <= findTestData('Rejestracja/tabR6').getRowNumbers(); row++) {
+    data = new Date().getTime()
+
+    username = ('Ameba' + data)
+
     WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
 
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username'), username)
