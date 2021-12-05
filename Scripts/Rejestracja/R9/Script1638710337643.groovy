@@ -42,6 +42,8 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR9').getRowNumbers(); row+
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_kodgrupy'), findTestData(
             'Rejestracja/tabR9').getValue('group', row))
 
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
+
     WebUI.verifyElementVisible(findTestObject('Page_PSTO webMessenger/p_Uytkownik o takim loginie ju istnieje'), FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
