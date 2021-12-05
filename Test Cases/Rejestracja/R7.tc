@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie poprawnej składni w pole NAZWA UŻYTKOWNIKA (z użyciem polskich znaków)</description>
+   <name>R7</name>
+   <tag>#pozytywny #username #polskieznaki</tag>
+   <comment></comment>
+   <testCaseGuid>c0b08fd5-f984-4c53-a8dc-c1ab3192128d</testCaseGuid>
+</TestCaseEntity>
