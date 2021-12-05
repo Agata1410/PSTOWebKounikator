@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Wpisanie pola IMIĘ, pole NAZWISKO puste</description>
+   <name>R13</name>
+   <tag>#empty_srname</tag>
+   <comment></comment>
+   <testCaseGuid>c1a1001e-752b-40dd-9f31-4dce0c0722cd</testCaseGuid>
+</TestCaseEntity>
