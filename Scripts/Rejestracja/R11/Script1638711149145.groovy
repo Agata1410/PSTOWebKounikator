@@ -47,7 +47,19 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR11').getRowNumbers(); row
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'))
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), findTestData('Rejestracja/tabR11').getValue(
+            'username', row) + data)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR11').getValue(
+            'password', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+    WebUI.takeScreenshot(data + 'bugR11.png')
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.closeBrowser()
