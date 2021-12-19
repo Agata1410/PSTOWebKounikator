@@ -56,9 +56,9 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR8').getRowNumbers(); row+
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-    WebUI.delay(1)
-
     WebUI.takeScreenshot(data + 'bug.png')
+
+    WebUI.delay(1)
 
     WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), FailureHandling.CONTINUE_ON_FAILURE)
 }
