@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Zarejestruj konto_userLogin</name>
+   <name>img_Robert Majewski_sendButton</name>
    <tag></tag>
-   <elementGuidId>f0901ed2-508c-4738-a7f0-6d754dc528d5</elementGuidId>
+   <elementGuidId>ebb11fe9-d195-46bd-b6cd-597f58ee14db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#userLogin</value>
+         <value>#sendButton</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='userLogin']</value>
+         <value>//img[@id='sendButton']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>userLogin</value>
+      <value>sendButton</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>src</name>
       <type>Main</type>
-      <value>Nazwa użytkownika:</value>
+      <value>./send.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;userLogin&quot;)</value>
+      <value>id(&quot;sendButton&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='userLogin']</value>
+      <value>//img[@id='sendButton']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='mainFooter1']/input</value>
+      <value>//div[@id='mainFooter2']/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[5]/div[2]/img</value>
    </webElementXpaths>
 </WebElementEntity>

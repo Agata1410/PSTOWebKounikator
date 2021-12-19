@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HR-test,Firefox 94.0,,,2021-12-19 14:44:05,2021-12-19 15:11:50,"27m - 45,123s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR17,Firefox 94.0,użytkownik wysyła 100 wiadomości do innego dowolnego użytkownika,,2021-12-19 14:44:06,2021-12-19 14:45:38,"1m - 31,868s",PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-19 14:44:07,2021-12-19 14:44:15,"8,053s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-19 14:44:15,2021-12-19 14:44:16,"1,017s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Firefox 94.0,,,2021-12-19 14:44:16,2021-12-19 14:44:17,"1,110s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Firefox 94.0,,,2021-12-19 14:44:17,2021-12-19 14:44:17,"0,568s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 94.0,,,2021-12-19 14:44:17,2021-12-19 14:44:18,"0,732s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Magda Kowalska""))",Firefox 94.0,,,2021-12-19 14:44:18,2021-12-19 14:44:19,"0,744s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Magda Kowalska_messageInput""), ""proba"")",Firefox 94.0,,,2021-12-19 14:44:19,2021-12-19 14:44:21,"1,906s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Magda Kowalska_sendButton""))",Firefox 94.0,,,2021-12-19 14:44:21,2021-12-19 14:44:22,"1,186s",PASSED
+for (def index : (1..50)),Firefox 94.0,,,2021-12-19 14:44:22,2021-12-19 14:45:35,"1m - 13,446s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Firefox 94.0,,,2021-12-19 14:45:35,2021-12-19 14:45:36,"1,152s",PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-19 14:45:36,2021-12-19 14:45:38,"1,134s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR18,Firefox 94.0,użytkownik wysyła 100 wiadomości do innego dowolnego użytkownika,,2021-12-19 14:45:38,2021-12-19 14:48:30,"2m - 52,533s",PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-19 14:45:38,2021-12-19 14:45:44,"5,796s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-19 14:45:44,2021-12-19 14:45:45,"0,990s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Firefox 94.0,,,2021-12-19 14:45:45,2021-12-19 14:45:46,"0,779s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Firefox 94.0,,,2021-12-19 14:45:46,2021-12-19 14:45:46,"0,439s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 94.0,,,2021-12-19 14:45:46,2021-12-19 14:45:47,"0,640s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Joanna Kowalska""))",Firefox 94.0,,,2021-12-19 14:45:47,2021-12-19 14:45:48,"0,811s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Joanna Kowalska_messageInput""), ""proba"")",Firefox 94.0,,,2021-12-19 14:45:48,2021-12-19 14:45:49,"1,813s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Joanna Kowalska_sendButton""))",Firefox 94.0,,,2021-12-19 14:45:49,2021-12-19 14:45:50,"0,840s",PASSED
+for (def index : (1..100)),Firefox 94.0,,,2021-12-19 14:45:50,2021-12-19 14:48:28,"2m - 38,110s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Firefox 94.0,,,2021-12-19 14:48:28,2021-12-19 14:48:29,"0,826s",PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-19 14:48:29,2021-12-19 14:48:30,"0,883s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR19,Firefox 94.0,użytkownik wysyła 300 wiadomości do innego dowolnego użytkownika,,2021-12-19 14:48:30,2021-12-19 14:53:56,"5m - 25,887s",PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-19 14:48:31,2021-12-19 14:48:36,"5,241s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-19 14:48:36,2021-12-19 14:48:37,"0,984s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Firefox 94.0,,,2021-12-19 14:48:37,2021-12-19 14:48:38,"0,785s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Firefox 94.0,,,2021-12-19 14:48:38,2021-12-19 14:48:38,"0,404s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 94.0,,,2021-12-19 14:48:38,2021-12-19 14:48:39,"0,612s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Robert Majewski""))",Firefox 94.0,,,2021-12-19 14:48:39,2021-12-19 14:48:39,"0,777s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Robert Majewski_messageInput""), ""proba"")",Firefox 94.0,,,2021-12-19 14:48:39,2021-12-19 14:48:41,"1,865s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Robert Majewski_sendButton""))",Firefox 94.0,,,2021-12-19 14:48:41,2021-12-19 14:48:42,"0,854s",PASSED
+for (def index : (1..200)),Firefox 94.0,,,2021-12-19 14:48:42,2021-12-19 14:53:54,"5m - 12,105s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Firefox 94.0,,,2021-12-19 14:53:54,2021-12-19 14:53:55,"0,819s",PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-19 14:53:55,2021-12-19 14:53:56,"0,939s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR20,Firefox 94.0,użytkownik wysyła 400 wiadomości do innego dowolnego użytkownika,,2021-12-19 14:53:56,2021-12-19 15:01:24,"7m - 27,556s",PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-19 14:53:57,2021-12-19 14:54:02,"5,157s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-19 14:54:02,2021-12-19 14:54:03,"1,148s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Firefox 94.0,,,2021-12-19 14:54:03,2021-12-19 14:54:04,"0,779s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Firefox 94.0,,,2021-12-19 14:54:04,2021-12-19 14:54:04,"0,405s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 94.0,,,2021-12-19 14:54:04,2021-12-19 14:54:05,"0,610s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Mateusz Kowalski""))",Firefox 94.0,,,2021-12-19 14:54:05,2021-12-19 14:54:05,"0,762s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Mateusz Kowalski_messageInput""), ""proba"")",Firefox 94.0,,,2021-12-19 14:54:05,2021-12-19 14:54:07,"1,800s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Mateusz Kowalski_sendButton""))",Firefox 94.0,,,2021-12-19 14:54:07,2021-12-19 14:54:08,"0,871s",PASSED
+for (def index : (1..300)),Firefox 94.0,,,2021-12-19 14:54:08,2021-12-19 15:01:22,"7m - 13,664s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Firefox 94.0,,,2021-12-19 15:01:22,2021-12-19 15:01:23,"0,846s",PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-19 15:01:23,2021-12-19 15:01:24,"0,968s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR21,Firefox 94.0,użytkownik wysyła 500 wiadomości do innego dowolnego użytkownika,,2021-12-19 15:01:24,2021-12-19 15:11:50,"10m - 26,698s",PASSED
+"openBrowser("""")",Firefox 94.0,,,2021-12-19 15:01:24,2021-12-19 15:01:29,"5,316s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 94.0,,,2021-12-19 15:01:29,2021-12-19 15:01:30,"1,034s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Firefox 94.0,,,2021-12-19 15:01:30,2021-12-19 15:01:31,"0,759s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Firefox 94.0,,,2021-12-19 15:01:31,2021-12-19 15:01:32,"0,402s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 94.0,,,2021-12-19 15:01:32,2021-12-19 15:01:32,"0,611s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Leszek Kowalski""))",Firefox 94.0,,,2021-12-19 15:01:32,2021-12-19 15:01:33,"0,794s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Leszek Kowalski_messageInput""), ""proba"")",Firefox 94.0,,,2021-12-19 15:01:33,2021-12-19 15:01:35,"1,836s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Leszek Kowalski_sendButton""))",Firefox 94.0,,,2021-12-19 15:01:35,2021-12-19 15:01:36,"0,868s",PASSED
+for (def index : (1..400)),Firefox 94.0,,,2021-12-19 15:01:36,2021-12-19 15:11:48,"10m - 12,747s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Firefox 94.0,,,2021-12-19 15:11:48,2021-12-19 15:11:49,"0,835s",PASSED
+closeBrowser(),Firefox 94.0,,,2021-12-19 15:11:49,2021-12-19 15:11:50,"1,001s",PASSED

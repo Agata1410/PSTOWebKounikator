@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>użytkownik wysyła 100 wiadomości do innego dowolnego użytkownika</description>
+   <name>HR18</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5b092d4-fdad-4665-8e2a-8e03aaab50c9</testCaseGuid>
+</TestCaseEntity>
