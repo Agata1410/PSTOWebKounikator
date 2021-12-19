@@ -19,6 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row++) {
@@ -26,7 +27,11 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row+
 
     username = ('Ameba' + data)
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+	
+	
+	WebElement element = driver.findElement(By.xpath(".//*[@id='mainFooter1']/p/a"));
+	Actions actions = new Actions(driver);
+	actions.moveToElement(element).click().build().perform();
 
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username'), username)
 
@@ -47,7 +52,16 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row+
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'))
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR1').getValue(
+            'password', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 }
 
 WebUI.closeBrowser()

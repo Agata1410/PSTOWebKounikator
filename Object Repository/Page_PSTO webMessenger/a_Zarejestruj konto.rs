@@ -4,6 +4,7 @@
    <name>a_Zarejestruj konto</name>
    <tag></tag>
    <elementGuidId>83f39217-a404-44ee-9ce4-9cda2e24dd44</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -12,6 +13,14 @@
       <entry>
          <key>CSS</key>
          <value>a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'register.html' and (text() = 'Zarejestruj konto' or . = 'Zarejestruj konto')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

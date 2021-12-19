@@ -35,7 +35,11 @@ WebUI.delay(1)
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
 
+WebUI.verifyEqual('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg', 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg')
+
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg_1'))
+
+
 
 WebUI.closeBrowser()
 
