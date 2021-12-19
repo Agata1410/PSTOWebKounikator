@@ -47,6 +47,8 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR4').getRowNumbers(); row+
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
 
+    WebUI.delay(4)
+
     WebUI.verifyElementVisible(findTestObject('Page_PSTO webMessenger/p_Nie wypeniono wszystkich plPodane Hasa rni si'))
 
     WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
