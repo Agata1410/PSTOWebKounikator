@@ -49,8 +49,7 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR11').getRowNumbers(); row
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'))
 
-    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), findTestData('Rejestracja/tabR11').getValue(
-            'username', row) + data)
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
 
     WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR11').getValue(
             'password', row))
