@@ -25,7 +25,8 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR15').getRowNumbers(); row
     data = new Date().getTime()
 
     username = ('Ameba' + data)
-	newname = ('Agata'+ data)
+
+    newname = ('Agata' + data)
 
     WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
 
@@ -47,7 +48,18 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR15').getRowNumbers(); row
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR15').getValue(
+            'password', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.takeScreenshot(data + 'bugR15.png')
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.closeBrowser()

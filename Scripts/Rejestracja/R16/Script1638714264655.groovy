@@ -41,14 +41,25 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR16').getRowNumbers(); row
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_name'), findTestData(
             'Rejestracja/tabR16').getValue('name', row))
 
-    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_surname'),surname )
+    WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_surname'), surname)
 
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_kodgrupy'), findTestData(
             'Rejestracja/tabR16').getValue('group', row))
 
     WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR16').getValue(
+            'password', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.takeScreenshot(data + 'bugR16.png')
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 WebUI.closeBrowser()
