@@ -45,16 +45,16 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR11').getRowNumbers(); row
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_kodgrupy'), findTestData(
             'Rejestracja/tabR11').getValue('group', row))
 
-    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Powrt do logowania_register'), FailureHandling.CONTINUE_ON_FAILURE)
 
-    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Kliknij, aby si zalogowa'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
 
     WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR11').getValue(
             'password', row))
 
-    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.takeScreenshot(data + 'bugR11.png')
 
