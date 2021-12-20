@@ -49,7 +49,16 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR14').getRowNumbers(); row
 
     WebUI.verifyElementVisible(findTestObject('Page_PSTO webMessenger/div_Nie wypeniono wszystkich pl'))
 
-    WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/a_Zarejestruj konto'))
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Powrt do logowania'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), username)
+
+    WebUI.setText(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), findTestData('Rejestracja/tabR14').getValue(
+            'password', row))
+
+    WebUI.click(findTestObject('Page_PSTO webMessenger/input_Zarejestruj konto_login'), FailureHandling.CONTINUE_ON_FAILURE)
+
+    WebUI.takeScreenshot(data + 'bugR14.png')
 }
 
 WebUI.closeBrowser()
