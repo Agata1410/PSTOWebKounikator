@@ -1,0 +1,72 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HR-test-chrome,Chrome 96.0.4664.110,,,2021-12-21 18:41:36,2021-12-21 20:20:07,"1h - 38m - 31,067s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR17,Chrome 96.0.4664.110,użytkownik wysyła 100 wiadomości do innego dowolnego użytkownika,,2021-12-21 18:41:36,2021-12-21 18:43:15,"1m - 38,679s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:41:37,2021-12-21 18:41:42,"4,434s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 18:41:42,2021-12-21 18:41:42,"0,263s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:41:42,2021-12-21 18:41:44,"2,312s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Chrome 96.0.4664.110,,,2021-12-21 18:41:44,2021-12-21 18:41:45,"1,051s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Chrome 96.0.4664.110,,,2021-12-21 18:41:45,2021-12-21 18:41:46,"0,648s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 18:41:46,2021-12-21 18:41:47,"0,685s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Magda Kowalska""))",Chrome 96.0.4664.110,,,2021-12-21 18:41:47,2021-12-21 18:41:48,"0,934s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Magda Kowalska_messageInput""), ""proba"")",Chrome 96.0.4664.110,,,2021-12-21 18:41:48,2021-12-21 18:41:51,"3,241s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Magda Kowalska_sendButton""))",Chrome 96.0.4664.110,,,2021-12-21 18:41:51,2021-12-21 18:41:51,"0,571s",PASSED
+for (def index : (1..50)),Chrome 96.0.4664.110,,,2021-12-21 18:41:51,2021-12-21 18:43:13,"1m - 21,760s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Chrome 96.0.4664.110,,,2021-12-21 18:43:13,2021-12-21 18:43:14,"0,862s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:43:14,2021-12-21 18:43:15,"0,952s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR18,Chrome 96.0.4664.110,użytkownik wysyła 100 wiadomości do innego dowolnego użytkownika,,2021-12-21 18:43:15,2021-12-21 18:54:36,"11m - 21,433s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:43:16,2021-12-21 18:43:17,"1,617s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 18:43:17,2021-12-21 18:43:17,"0,180s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:43:17,2021-12-21 18:43:19,"1,732s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Chrome 96.0.4664.110,,,2021-12-21 18:43:19,2021-12-21 18:43:20,"0,913s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Chrome 96.0.4664.110,,,2021-12-21 18:43:20,2021-12-21 18:43:21,"0,701s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 18:43:21,2021-12-21 18:43:21,"0,548s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Joanna Kowalska""))",Chrome 96.0.4664.110,,,2021-12-21 18:43:21,2021-12-21 18:43:22,"0,896s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Joanna Kowalska_messageInput""), ""proba"")",Chrome 96.0.4664.110,,,2021-12-21 18:43:22,2021-12-21 18:43:25,"3,074s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Joanna Kowalska_sendButton""))",Chrome 96.0.4664.110,,,2021-12-21 18:43:25,2021-12-21 18:43:26,"0,581s",PASSED
+for (def index : (1..100)),Chrome 96.0.4664.110,,,2021-12-21 18:43:26,2021-12-21 18:54:33,"11m - 6,779s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Chrome 96.0.4664.110,,,2021-12-21 18:54:33,2021-12-21 18:54:35,"2,495s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:54:35,2021-12-21 18:54:36,"1,257s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR19,Chrome 96.0.4664.110,użytkownik wysyła 300 wiadomości do innego dowolnego użytkownika,,2021-12-21 18:54:36,2021-12-21 19:03:37,"9m - 0,703s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:54:37,2021-12-21 18:54:39,"1,793s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 18:54:39,2021-12-21 18:54:39,"0,154s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:54:39,2021-12-21 18:54:40,"1,456s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Chrome 96.0.4664.110,,,2021-12-21 18:54:40,2021-12-21 18:54:41,"0,802s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Chrome 96.0.4664.110,,,2021-12-21 18:54:41,2021-12-21 18:54:42,"0,666s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 18:54:42,2021-12-21 18:54:42,"0,422s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Robert Majewski""))",Chrome 96.0.4664.110,,,2021-12-21 18:54:42,2021-12-21 18:54:43,"0,920s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Robert Majewski_messageInput""), ""proba"")",Chrome 96.0.4664.110,,,2021-12-21 18:54:43,2021-12-21 18:54:47,"3,418s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Robert Majewski_sendButton""))",Chrome 96.0.4664.110,,,2021-12-21 18:54:47,2021-12-21 18:54:47,"0,635s",PASSED
+for (def index : (1..200)),Chrome 96.0.4664.110,,,2021-12-21 18:54:47,2021-12-21 19:03:34,"8m - 46,437s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Chrome 96.0.4664.110,,,2021-12-21 19:03:34,2021-12-21 19:03:36,"2,498s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 19:03:36,2021-12-21 19:03:37,"0,916s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR20,Chrome 96.0.4664.110,użytkownik wysyła 400 wiadomości do innego dowolnego użytkownika,,2021-12-21 19:03:37,2021-12-21 19:32:41,"29m - 3,924s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 19:03:38,2021-12-21 19:03:40,"1,784s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 19:03:40,2021-12-21 19:03:40,"0,190s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 19:03:40,2021-12-21 19:03:42,"1,385s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Chrome 96.0.4664.110,,,2021-12-21 19:03:42,2021-12-21 19:03:43,"0,800s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Chrome 96.0.4664.110,,,2021-12-21 19:03:43,2021-12-21 19:03:43,"0,508s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 19:03:43,2021-12-21 19:03:44,"0,471s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Mateusz Kowalski""))",Chrome 96.0.4664.110,,,2021-12-21 19:03:44,2021-12-21 19:03:45,"0,896s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Mateusz Kowalski_messageInput""), ""proba"")",Chrome 96.0.4664.110,,,2021-12-21 19:03:45,2021-12-21 19:03:48,"3,598s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Mateusz Kowalski_sendButton""))",Chrome 96.0.4664.110,,,2021-12-21 19:03:48,2021-12-21 19:03:49,"0,549s",PASSED
+for (def index : (1..300)),Chrome 96.0.4664.110,,,2021-12-21 19:03:49,2021-12-21 19:32:38,"28m - 49,179s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Chrome 96.0.4664.110,,,2021-12-21 19:32:38,2021-12-21 19:32:40,"2,370s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 19:32:40,2021-12-21 19:32:41,"0,886s",PASSED
+,,,,,,,
+Test Cases/Historia rozmów/HR21,Chrome 96.0.4664.110,użytkownik wysyła 500 wiadomości do innego dowolnego użytkownika,,2021-12-21 19:32:41,2021-12-21 20:20:07,"47m - 25,538s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 19:32:42,2021-12-21 19:32:44,"1,852s",PASSED
+maximizeWindow(),Chrome 96.0.4664.110,,,2021-12-21 19:32:44,2021-12-21 19:32:44,"0,174s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 19:32:44,2021-12-21 19:32:45,"1,387s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Tomasz Staszewski"")",Chrome 96.0.4664.110,,,2021-12-21 19:32:45,2021-12-21 19:32:46,"0,855s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""wCo1vTKhcj4="")",Chrome 96.0.4664.110,,,2021-12-21 19:32:46,2021-12-21 19:32:46,"0,504s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Chrome 96.0.4664.110,,,2021-12-21 19:32:46,2021-12-21 19:32:47,"0,589s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/div_Leszek Kowalski""))",Chrome 96.0.4664.110,,,2021-12-21 19:32:47,2021-12-21 19:32:49,"1,614s",PASSED
+"setText(findTestObject(""Page_PSTO webMessenger - Zalogowano/input_Leszek Kowalski_messageInput""), ""proba"")",Chrome 96.0.4664.110,,,2021-12-21 19:32:49,2021-12-21 19:32:51,"2,732s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/img_Leszek Kowalski_sendButton""))",Chrome 96.0.4664.110,,,2021-12-21 19:32:51,2021-12-21 19:32:52,"0,588s",PASSED
+for (def index : (1..400)),Chrome 96.0.4664.110,,,2021-12-21 19:32:52,2021-12-21 20:20:03,"47m - 11,139s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg""))",Chrome 96.0.4664.110,,,2021-12-21 20:20:03,2021-12-21 20:20:05,"2,366s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 20:20:05,2021-12-21 20:20:07,"1,148s",PASSED
