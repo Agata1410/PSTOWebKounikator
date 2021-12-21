@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+R-tests,Chrome 96.0.4664.110,,,2021-12-21 17:54:33,2021-12-21 18:16:59,"22m - 26,357s",FAILED
+,,,,,,,
+Test Cases/Rejestracja/R1,Chrome 96.0.4664.110,"Wpisanie hasła o poprawnej składni w pole HASŁO i POWTÓRZ HASŁO, NAZWA UŻYTKOWNIKA, IMIĘ, NAZWISKO",pozytywny,2021-12-21 17:54:33,2021-12-21 17:55:32,"58,886s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 17:54:34,2021-12-21 17:54:39,"4,800s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 17:54:39,2021-12-21 17:54:40,"1,128s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR1"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 17:54:40,2021-12-21 17:55:31,"50,949s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 17:55:31,2021-12-21 17:55:32,"0,984s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R10,Chrome 96.0.4664.110,Wpisanie imienia i nazwiska istniejącego w bazie (inna NAZWA UŻYTKOWNIKA),#pozytywny #samename #samesurname,2021-12-21 17:55:32,2021-12-21 17:56:26,"54,244s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 17:55:33,2021-12-21 17:55:35,"1,831s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 17:55:35,2021-12-21 17:55:36,"1,026s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR10"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 17:55:36,2021-12-21 17:56:26,"49,794s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 17:56:26,2021-12-21 17:56:26,"0,935s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R11,Chrome 96.0.4664.110,Wpisanie w pole IMIE tekstu zawierającego znaki specjalne oraz polskie znaki,#name #znakispecjalne,2021-12-21 17:56:26,2021-12-21 17:58:33,"2m - 6,932s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 17:56:27,2021-12-21 17:56:29,"1,815s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 17:56:29,2021-12-21 17:56:30,"0,905s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR11"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 17:56:30,2021-12-21 17:58:32,"2m - 2,623s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 17:58:32,2021-12-21 17:58:33,"0,938s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R12,Chrome 96.0.4664.110,Wpisanie w pole NAZWISKO tesktu zawierającego  polskie znaki,#negatywny #znaki_specjalne,2021-12-21 17:58:33,2021-12-21 18:00:44,"2m - 10,453s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 17:58:34,2021-12-21 17:58:36,"1,610s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 17:58:36,2021-12-21 17:58:37,"0,993s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR12"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 17:58:37,2021-12-21 18:00:43,"2m - 5,967s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:00:43,2021-12-21 18:00:44,"1,143s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R13,Chrome 96.0.4664.110,"Wpisanie pola IMIĘ, pole NAZWISKO puste",#empty_srname,2021-12-21 18:00:44,2021-12-21 18:01:42,"57,833s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:00:45,2021-12-21 18:00:46,"1,612s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:00:46,2021-12-21 18:00:47,"1,013s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR13"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:00:47,2021-12-21 18:01:41,"53,452s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:01:41,2021-12-21 18:01:42,"0,919s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R14,Chrome 96.0.4664.110,"Wpisanie pola NAZWISKO, pole IMIĘ puste",#emptyname,2021-12-21 18:01:42,2021-12-21 18:02:27,"44,812s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:01:43,2021-12-21 18:01:45,"2,784s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:01:45,2021-12-21 18:01:47,"1,415s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR14"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:01:47,2021-12-21 18:02:26,"38,901s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:02:26,2021-12-21 18:02:27,"0,879s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R15,Chrome 96.0.4664.110,Wpisanie cyfr w pole IMIĘ,#numeber_name,2021-12-21 18:02:27,2021-12-21 18:02:54,"27,510s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:02:27,2021-12-21 18:02:29,"1,754s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:02:29,2021-12-21 18:02:30,"0,936s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR15"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:02:30,2021-12-21 18:02:53,"23,204s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:02:53,2021-12-21 18:02:54,"0,917s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R16,Chrome 96.0.4664.110,Wpisanie cyfr w pole NAZWISKO,#numer_surname,2021-12-21 18:02:54,2021-12-21 18:03:22,"27,471s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:02:55,2021-12-21 18:02:57,"1,952s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:02:57,2021-12-21 18:02:58,"1,039s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR16"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:02:58,2021-12-21 18:03:21,"22,803s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:03:21,2021-12-21 18:03:22,"1,043s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R17,Chrome 96.0.4664.110,Wpisanie w pole IMIE tekstu zawierającego znaki specjalne,,2021-12-21 18:03:22,2021-12-21 18:05:14,"1m - 52,707s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:03:23,2021-12-21 18:03:25,"1,941s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:03:25,2021-12-21 18:03:26,"0,942s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR17"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:03:26,2021-12-21 18:05:13,"1m - 47,507s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:05:13,2021-12-21 18:05:14,"0,898s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R18,Chrome 96.0.4664.110,Wpisanie w pole NAZWISKO tesktu zawierającego znaki specjalne,,2021-12-21 18:05:14,2021-12-21 18:07:05,"1m - 50,715s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:05:15,2021-12-21 18:05:17,"1,674s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:05:17,2021-12-21 18:05:18,"0,994s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR18"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:05:18,2021-12-21 18:07:04,"1m - 46,488s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:07:04,2021-12-21 18:07:05,"0,909s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R2,Chrome 96.0.4664.110,Wpisanie hasła o niepoprawnej składni w pole HASŁO i POWTÓRZ HASŁO,negatywny wrong password,2021-12-21 18:07:05,2021-12-21 18:08:03,"58,266s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:07:06,2021-12-21 18:07:07,"1,478s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:07:07,2021-12-21 18:07:08,"0,935s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR2"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:07:08,2021-12-21 18:08:02,"54,360s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:08:02,2021-12-21 18:08:03,"0,938s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R3,Chrome 96.0.4664.110,Pozostawienie pustego pola HASŁO i POWTÓRZ HASŁO,#negatywny #empty_password2,2021-12-21 18:08:03,2021-12-21 18:09:03,"59,448s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:08:04,2021-12-21 18:08:06,"1,713s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:08:06,2021-12-21 18:08:07,"1,057s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR3"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:08:07,2021-12-21 18:09:02,"55,059s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:09:02,2021-12-21 18:09:03,"0,955s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R4,Chrome 96.0.4664.110,Pozostawienie pustego pola: POWTÓRZ HASŁO,#negatywny #empty_password2,2021-12-21 18:09:03,2021-12-21 18:10:05,"1m - 1,697s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:09:03,2021-12-21 18:09:05,"1,858s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:09:05,2021-12-21 18:09:06,"1,062s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR4"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:09:06,2021-12-21 18:10:02,"55,216s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:10:02,2021-12-21 18:10:05,"2,898s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R5,Chrome 96.0.4664.110,Wpisanie hasła o niepoprawnej składni w pole: POWTÓRZ HASŁO,#nagatywny #wrongpassword2,2021-12-21 18:10:05,2021-12-21 18:10:59,"54,830s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:10:06,2021-12-21 18:10:10,"4,074s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:10:10,2021-12-21 18:10:12,"1,489s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR5"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:10:12,2021-12-21 18:10:58,"46,515s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:10:58,2021-12-21 18:10:59,"1,065s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R6,Chrome 96.0.4664.110,Wpisanie hasła o niepoprawnej składni w pole HASŁO i pozostawienie pustego pola POWTÓRZ HASŁO,#nagetywny #wrongpassword #emptypassword2,2021-12-21 18:10:59,2021-12-21 18:11:44,"45,028s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:11:01,2021-12-21 18:11:02,"1,678s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:11:02,2021-12-21 18:11:04,"1,203s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR6"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:11:04,2021-12-21 18:11:44,"39,844s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:11:44,2021-12-21 18:11:44,"0,897s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R7,Chrome 96.0.4664.110,Wpisanie poprawnej składni w pole NAZWA UŻYTKOWNIKA (z użyciem polskich znaków),#pozytywny #username #polskieznaki,2021-12-21 18:11:44,2021-12-21 18:13:15,"1m - 30,743s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:11:45,2021-12-21 18:11:47,"1,560s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:11:47,2021-12-21 18:11:47,"0,950s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR7"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:11:47,2021-12-21 18:13:14,"1m - 26,709s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:13:14,2021-12-21 18:13:15,"0,989s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R8,Chrome 96.0.4664.110,Wpisanie poprawnej składni w pole NAZWA UŻYTKOWNIKA (z użyciem znaków specjalnych),#pozytywny #znaki_specjalne,2021-12-21 18:13:15,2021-12-21 18:16:15,"2m - 59,586s",FAILED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:13:16,2021-12-21 18:13:18,"1,924s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:13:18,2021-12-21 18:13:19,"1,101s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR8"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:13:19,2021-12-21 18:16:14,"2m - 54,353s",FAILED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:16:14,2021-12-21 18:16:15,"1,240s",PASSED
+,,,,,,,
+Test Cases/Rejestracja/R9,Chrome 96.0.4664.110,Wpisanie zajętej NAZWY UŻYTKOWNIKA,#nagatywny #usernametaken,2021-12-21 18:16:15,2021-12-21 18:16:59,"44,161s",PASSED
+"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:16:16,2021-12-21 18:16:17,"1,560s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:16:17,2021-12-21 18:16:18,"0,990s",PASSED
+"for ([row = 1, row <= findTestData(""Rejestracja/tabR9"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:16:18,2021-12-21 18:16:58,"39,905s",PASSED
+closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:16:58,2021-12-21 18:16:59,"0,938s",PASSED

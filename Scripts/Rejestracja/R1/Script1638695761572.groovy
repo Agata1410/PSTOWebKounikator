@@ -19,7 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-
 WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
 
 for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row++) {
@@ -27,11 +26,7 @@ for (def row = 1; row <= findTestData('Rejestracja/tabR1').getRowNumbers(); row+
 
     username = ('Ameba' + data)
 
-	
-	
-	WebElement element = driver.findElement(By.xpath(".//*[@id='mainFooter1']/p/a"));
-	Actions actions = new Actions(driver);
-	actions.moveToElement(element).click().build().perform();
+    WebUI.click(findTestObject('Page_PSTO webMessenger/a_Zarejestruj konto'))
 
     WebUI.setText(findTestObject('Object Repository/Page_PSTO webMessenger/input_Powrt do logowania_username'), username)
 
