@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MU-test,Firefox 95.0,,,2021-12-22 16:55:47,2021-12-22 16:58:35,"2m - 47,985s",FAILED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU1,Firefox 95.0,Sprawdzenie modułu MAPA,#map,2021-12-22 16:55:48,2021-12-22 16:56:10,"22,549s",PASSED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:55:49,2021-12-22 16:55:58,"9,500s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:55:58,2021-12-22 16:56:00,"1,778s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba1"")",Firefox 95.0,,,2021-12-22 16:56:00,2021-12-22 16:56:01,"1,198s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyROlAcxYzyYyg=="")",Firefox 95.0,,,2021-12-22 16:56:01,2021-12-22 16:56:02,"0,632s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:56:02,2021-12-22 16:56:03,"0,798s",PASSED
+"verifyElementPresent(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""), 1)",Firefox 95.0,,,2021-12-22 16:56:03,2021-12-22 16:56:03,"0,586s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""))",Firefox 95.0,,,2021-12-22 16:56:03,2021-12-22 16:56:04,"0,755s",PASSED
+"takeFullPageScreenshot(""MU1.jpg"")",Firefox 95.0,,,2021-12-22 16:56:04,2021-12-22 16:56:09,"4,696s",PASSED
+closeBrowser(),Firefox 95.0,,,2021-12-22 16:56:09,2021-12-22 16:56:10,"1,589s",PASSED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU2,Firefox 95.0,Funkcjonalność przycisku +,#map,2021-12-22 16:56:10,2021-12-22 16:56:32,"21,502s",PASSED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:56:11,2021-12-22 16:56:17,"6,448s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:56:17,2021-12-22 16:56:19,"1,195s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba1"")",Firefox 95.0,,,2021-12-22 16:56:19,2021-12-22 16:56:19,"0,854s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyROlAcxYzyYyg=="")",Firefox 95.0,,,2021-12-22 16:56:19,2021-12-22 16:56:20,"0,498s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:56:20,2021-12-22 16:56:21,"0,651s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""))",Firefox 95.0,,,2021-12-22 16:56:21,2021-12-22 16:56:21,"0,815s",PASSED
+"takeScreenshot(""MU2.jpg"")",Firefox 95.0,,,2021-12-22 16:56:21,2021-12-22 16:56:25,"3,441s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:25,2021-12-22 16:56:26,"1,009s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:26,2021-12-22 16:56:27,"1,443s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:27,2021-12-22 16:56:28,"1,180s",PASSED
+"takeScreenshot(""MU2_1.jpg"")",Firefox 95.0,,,2021-12-22 16:56:28,2021-12-22 16:56:30,"1,432s",PASSED
+closeBrowser(),Firefox 95.0,,,2021-12-22 16:56:30,2021-12-22 16:56:32,"1,838s",PASSED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU3,Firefox 95.0,Funkcjonalność przycisku -,#map,2021-12-22 16:56:32,2021-12-22 16:56:53,"21,249s",PASSED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:56:33,2021-12-22 16:56:39,"6,003s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:56:39,2021-12-22 16:56:40,"1,405s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba1"")",Firefox 95.0,,,2021-12-22 16:56:40,2021-12-22 16:56:41,"0,960s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyROlAcxYzyYyg=="")",Firefox 95.0,,,2021-12-22 16:56:41,2021-12-22 16:56:42,"0,505s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:56:42,2021-12-22 16:56:42,"0,663s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""))",Firefox 95.0,,,2021-12-22 16:56:42,2021-12-22 16:56:43,"0,783s",PASSED
+"takeScreenshot(""MU3.jpg"")",Firefox 95.0,,,2021-12-22 16:56:43,2021-12-22 16:56:46,"3,400s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:46,2021-12-22 16:56:48,"1,247s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:48,2021-12-22 16:56:49,"1,166s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/button_witaj_gm-control-active""))",Firefox 95.0,,,2021-12-22 16:56:49,2021-12-22 16:56:50,"1,165s",PASSED
+"takeScreenshot(""MU3_1.jpg"")",Firefox 95.0,,,2021-12-22 16:56:50,2021-12-22 16:56:51,"1,186s",PASSED
+closeBrowser(),Firefox 95.0,,,2021-12-22 16:56:51,2021-12-22 16:56:53,"1,869s",PASSED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU4,Firefox 95.0,Sprawdzenie funkcjonalności mapy,#map,2021-12-22 16:56:53,2021-12-22 16:57:04,"10,812s",FAILED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:56:54,2021-12-22 16:57:00,"6,409s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:57:00,2021-12-22 16:57:02,"1,164s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba1"")",Firefox 95.0,,,2021-12-22 16:57:02,2021-12-22 16:57:02,"0,790s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyROlAcxYzyYyg=="")",Firefox 95.0,,,2021-12-22 16:57:02,2021-12-22 16:57:03,"0,483s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:57:03,2021-12-22 16:57:03,"0,652s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/imMU""))",Firefox 95.0,,,2021-12-22 16:57:03,2021-12-22 16:57:04,"0,348s",FAILED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU5,Firefox 95.0,Pinezki użytkowników,#map,2021-12-22 16:57:04,2021-12-22 16:57:48,"44,522s",FAILED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:57:05,2021-12-22 16:57:12,"7,394s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:57:12,2021-12-22 16:57:13,"1,216s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba1"")",Firefox 95.0,,,2021-12-22 16:57:13,2021-12-22 16:57:14,"0,925s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyROlAcxYzyYyg=="")",Firefox 95.0,,,2021-12-22 16:57:14,2021-12-22 16:57:15,"0,491s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:57:15,2021-12-22 16:57:16,"0,661s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""))",Firefox 95.0,,,2021-12-22 16:57:16,2021-12-22 16:57:16,"0,738s",PASSED
+"rightClick(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/area""))",Firefox 95.0,,,2021-12-22 16:57:16,2021-12-22 16:57:48,"32,076s",FAILED
+,,,,,,,
+Test Cases/Mapa uzytkownikow/MU6,Firefox 95.0,mapa,#map,2021-12-22 16:57:48,2021-12-22 16:58:35,"46,523s",FAILED
+"openBrowser("""")",Firefox 95.0,,,2021-12-22 16:57:49,2021-12-22 16:57:58,"8,488s",PASSED
+maximizeWindow(),Firefox 95.0,,,2021-12-22 16:57:58,2021-12-22 16:57:58,"0,065s",PASSED
+"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Firefox 95.0,,,2021-12-22 16:57:58,2021-12-22 16:57:59,"1,343s",PASSED
+"setText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_userLogin""), ""Ameba2"")",Firefox 95.0,,,2021-12-22 16:57:59,2021-12-22 16:58:00,"0,815s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin""), ""myv0lBmsSyT1Gjw3iFsd+w=="")",Firefox 95.0,,,2021-12-22 16:58:00,2021-12-22 16:58:00,"0,494s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login""))",Firefox 95.0,,,2021-12-22 16:58:00,2021-12-22 16:58:01,"0,784s",PASSED
+"click(findTestObject(""Page_PSTO webMessenger - Zalogowano/i_MU""))",Firefox 95.0,,,2021-12-22 16:58:01,2021-12-22 16:58:02,"1,302s",PASSED
+"click(findTestObject(""Object Repository/Page_PSTO webMessenger - Zalogowano/area""))",Firefox 95.0,,,2021-12-22 16:58:02,2021-12-22 16:58:35,"32,404s",FAILED

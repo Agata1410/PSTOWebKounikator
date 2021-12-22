@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Sprawdzenie modułu LISTA ULUBIONYCH UŻYTKOWNIKÓW</description>
-   <name>LUU3</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cffda2b2-a327-4bf9-8e0a-ae4cd87b523d</testCaseGuid>
-</TestCaseEntity>
