@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-R-tests,Chrome 96.0.4664.110,,,2021-12-21 18:25:20,2021-12-21 18:26:09,"49,243s",PASSED
-,,,,,,,
-Test Cases/Rejestracja/R9,Chrome 96.0.4664.110,Wpisanie zajętej NAZWY UŻYTKOWNIKA,#nagatywny #usernametaken,2021-12-21 18:25:21,2021-12-21 18:26:09,"48,105s",PASSED
-"openBrowser("""")",Chrome 96.0.4664.110,,,2021-12-21 18:25:22,2021-12-21 18:25:27,"5,044s",PASSED
-"navigateToUrl(""http://kmg.hcm.pl/testowanie/index.html"")",Chrome 96.0.4664.110,,,2021-12-21 18:25:27,2021-12-21 18:25:30,"2,885s",PASSED
-"for ([row = 1, row <= findTestData(""Rejestracja/tabR9"").getRowNumbers(), (row++)])",Chrome 96.0.4664.110,,,2021-12-21 18:25:30,2021-12-21 18:26:08,"38,098s",PASSED
-closeBrowser(),Chrome 96.0.4664.110,,,2021-12-21 18:26:08,2021-12-21 18:26:09,"1,044s",PASSED
