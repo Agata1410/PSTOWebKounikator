@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>użytkownik wysyła 500 wiadomości do innego dowolnego użytkownika</description>
+   <description>użytkownik wysyła 400 wiadomości do innego dowolnego użytkownika</description>
    <name>HR21</name>
    <tag></tag>
    <comment></comment>
