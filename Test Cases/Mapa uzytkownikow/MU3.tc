@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Funkcjonalność przycisku +</description>
+   <description>Lokalizacja użytkowników</description>
    <name>MU3</name>
    <tag>#map</tag>
    <comment></comment>
-   <testCaseGuid>9d9b968e-1710-4bb7-8eaf-b42de091ab92</testCaseGuid>
+   <testCaseGuid>1242c13f-41b8-40e6-8b07-dded2ea29031</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Rozwinięcie zakładki MAPA</description>
+   <description>Funkcjonalność przycisku -</description>
    <name>MU2</name>
    <tag>#map</tag>
    <comment></comment>
-   <testCaseGuid>aff3b453-263e-4bf9-8d88-056333b0e6fe</testCaseGuid>
+   <testCaseGuid>9d9b968e-1710-4bb7-8eaf-b42de091ab92</testCaseGuid>
 </TestCaseEntity>

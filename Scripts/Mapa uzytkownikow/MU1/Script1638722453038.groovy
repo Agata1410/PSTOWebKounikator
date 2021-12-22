@@ -28,18 +28,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_PSTO webMessenger/
 
 WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger/input_Zarejestruj konto_login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'), 
-    1)
+WebUI.verifyElementPresent(findTestObject('Page_PSTO webMessenger - Zalogowano/i_MU'), 1)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_PSTO webMessenger - Zalogowano/i_MU'))
 
-WebUI.verifyElementClickable(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg'))
-
-WebUI.verifyEqual('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg', 'Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg')
-
-WebUI.click(findTestObject('Object Repository/Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_iconImg_1'))
-
-
+WebUI.takeFullPageScreenshot('MU1.jpg')
 
 WebUI.closeBrowser()
 
