@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Logowanie" time="73.199" tests="6" failures="1" errors="0">
+   <testsuite name="Logowanie" tests="6" failures="1" errors="0" time="73.199" skipped="0" timestamp="2021-12-22 20:47:38" hostname="ASUS - N551JK" id="Test Suites/Logowanie">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\PTSOWebKounikator\\Reports\\20211222_204732\\Logowanie\\20211222_204732"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\PTSOWebKounikator\\Reports\\20211222_204732\\Logowanie\\20211222_204732\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ASUS\\git\\PTSOWebKounikator\\Reports\\20211222_204732\\Logowanie\\20211222_204732\\1640202504143.png"/>
+         <property name="hostName" value="ASUS - N551JK"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.110"/>
+         <property name="hostAddress" value="192.168.101.196"/>
+         <property name="sessionId" value="9463798d49203562314351af4c0ddc4d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Logowanie/L3" time="12.132" classname="Test Cases/Logowanie/L3" status="PASSED">
+         <system-out><![CDATA[2021-12-22 20:47:38 - [TEST_CASE][PASSED] - Test Cases/Logowanie/L3: Test Cases/Logowanie/L3
+
+2021-12-22 20:47:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:47:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:47:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:47:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:47:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:47:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:47:44 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:47:46 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:47:47 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:47:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:47:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:47:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-22 20:47:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-22 20:47:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-22 20:47:49 - [MESSAGE][PASSED] - Object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clickable
+
+2021-12-22 20:47:49 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:47:49 - [TEST_STEP][PASSED] - podswietlona_historia_rozmow = getCSSValue(findTestObject("logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat"), "opacity"): Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:47:50 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:47:50 - [TEST_STEP][PASSED] - verifyMatch(podswietlona_historia_rozmow, "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:47:50 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:47:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-22 20:47:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/L4" time="8.89" classname="Test Cases/Logowanie/L4" status="PASSED">
+         <system-out><![CDATA[2021-12-22 20:47:51 - [TEST_CASE][PASSED] - Test Cases/Logowanie/L4: Test Cases/Logowanie/L4
+
+2021-12-22 20:47:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:47:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:47:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:47:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:47:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:47:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:47:53 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:47:56 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:47:56 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:47:56 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:47:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "zMDjEGXuMr8="): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:47:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:47:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login"), 3): Scroll to object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-22 20:47:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' successfully
+
+2021-12-22 20:47:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), 3): Object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-22 20:47:58 - [MESSAGE][PASSED] - Object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin' is clickable
+
+2021-12-22 20:47:58 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:47:58 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:47:59 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:47:59 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:47:59 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:47:59 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:47:59 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:47:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-22 20:47:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/L5" time="7.882" classname="Test Cases/Logowanie/L5" status="PASSED">
+         <system-out><![CDATA[2021-12-22 20:47:59 - [TEST_CASE][PASSED] - Test Cases/Logowanie/L5: Test Cases/Logowanie/L5
+
+2021-12-22 20:48:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:48:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:48:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:48:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:48:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:48:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:48:02 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:04 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:04 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:05 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:05 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), ""): Text '' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:05 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:05 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:06 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:06 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:06 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:06 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:06 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:06 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-22 20:48:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/L7" time="8.01" classname="Test Cases/Logowanie/L7" status="PASSED">
+         <system-out><![CDATA[2021-12-22 20:48:07 - [TEST_CASE][PASSED] - Test Cases/Logowanie/L7: Test Cases/Logowanie/L7
+
+2021-12-22 20:48:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:48:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:48:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:48:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:48:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:48:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:48:10 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:13 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:13 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:14 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:14 - [TEST_STEP][PASSED] - podswietlona_historia_rozmow = getCSSValue(findTestObject("logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat"), "opacity"): Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:48:15 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:48:15 - [TEST_STEP][PASSED] - verifyMatch(podswietlona_historia_rozmow, "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:48:15 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:48:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-22 20:48:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/L8" time="8.565" classname="Test Cases/Logowanie/L8" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-12-22 20:48:15 - [TEST_CASE][FAILED] - Test Cases/Logowanie/L8: Test Cases/Logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-12-22 20:48:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:48:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:48:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:48:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:48:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:48:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:48:17 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:22 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:22 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelinaholderna"): Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:22 - [MESSAGE][PASSED] - Text 'ewelinaholderna' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:23 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:23 - [TEST_STEP][FAILED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile")): Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1640202291251.run(Script1640202291251.groovy:32)
+	... 13 more
+)
+
+2021-12-22 20:48:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at Script1640202291251.run(Script1640202291251.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\ASUS\\git\\PTSOWebKounikator\\Reports\\20211222_204732\\Logowanie\\20211222_204732\\1640202504143.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-22 20:48:15 - [TEST_CASE][FAILED] - Test Cases/Logowanie/L8: Test Cases/Logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logowanie/L9" time="22.812" classname="Test Cases/Logowanie/L9" status="PASSED">
+         <system-out><![CDATA[2021-12-22 20:48:24 - [TEST_CASE][PASSED] - Test Cases/Logowanie/L9: Test Cases/Logowanie/L9
+
+2021-12-22 20:48:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-22 20:48:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-22 20:48:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-22 20:48:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-22 20:48:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-22 20:48:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-22 20:48:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-22 20:48:27 - [TEST_STEP][PASSED] - navigateToUrl("http://kmg.hcm.pl/testowanie/index.html"): Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:33 - [MESSAGE][PASSED] - Navigate to 'http://kmg.hcm.pl/testowanie/index.html' successfully
+
+2021-12-22 20:48:33 - [TEST_STEP][PASSED] - for ([row = 1, row <= 5, (row++)]): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:33 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:34 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:34 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:35 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:35 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:35 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:35 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:35 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:35 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:35 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:35 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:36 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:37 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:37 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:37 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:38 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:38 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:38 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:38 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:38 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:38 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:38 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:39 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:39 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:39 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:39 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:39 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:39 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:39 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:39 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:40 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:40 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:41 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:41 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:41 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:41 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:41 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:41 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:41 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "ewelina1"): Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:42 - [MESSAGE][PASSED] - Text 'ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), String.valueOf(row)): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:42 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:43 - [TEST_STEP][PASSED] - waitForAlert(2): Alert is present after 2 second(s).
+
+2021-12-22 20:48:43 - [MESSAGE][PASSED] - Alert is present after 2 second(s).
+
+2021-12-22 20:48:43 - [TEST_STEP][PASSED] - alert_text = getAlertText(): Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:43 - [MESSAGE][PASSED] - Get alert text successfully: 'Podano błędną nazwę użytkownika lub hasło!'
+
+2021-12-22 20:48:43 - [TEST_STEP][PASSED] - verifyEqual(alert_text, "Podano błędną nazwę użytkownika lub hasło!"): Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:43 - [MESSAGE][PASSED] - Actual object 'Podano błędną nazwę użytkownika lub hasło!' and expected object 'Podano błędną nazwę użytkownika lub hasło!' are equal
+
+2021-12-22 20:48:43 - [TEST_STEP][PASSED] - setText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin"), "Ewelina1"): Text 'Ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:44 - [MESSAGE][PASSED] - Text 'Ewelina1' is set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'
+
+2021-12-22 20:48:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'
+
+2021-12-22 20:48:44 - [TEST_STEP][PASSED] - click(findTestObject("logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login")): Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login' is clicked on
+
+2021-12-22 20:48:45 - [TEST_STEP][PASSED] - podswietlona_historia_rozmow = getCSSValue(findTestObject("logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat"), "opacity"): Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:48:46 - [MESSAGE][PASSED] - Get CSS 'opacity' value on 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_chat' successfully: '1'.
+
+2021-12-22 20:48:46 - [TEST_STEP][PASSED] - verifyMatch(podswietlona_historia_rozmow, "1", true): Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:48:46 - [MESSAGE][PASSED] - Actual text '1' and expected text '1' are matched  using regular expression
+
+2021-12-22 20:48:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-22 20:48:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-22 20:47:38 - [TEST_SUITE][FAILED] - Logowanie: Test Cases/Logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-12-22 20:47:38 - [TEST_SUITE][FAILED] - Logowanie: Test Cases/Logowanie/L8 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at L8.run(L8:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1640202452443.run(TempTestSuite1640202452443.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'N551JK', ip: '192.168.101.196', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a87bc726f996ac17ef486b94940f9b64
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,3 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('http://kmg.hcm.pl/testowanie/index.html')
+
+WebUI.setText(findTestObject('logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_userLogin'), 'ewelinaho')
+
+WebUI.setEncryptedText(findTestObject('logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_passwordLogin'), 
+    'aeHFOx8jV/A=')
+
+WebUI.click(findTestObject('logowanie_edycja_Page_PSTO webMessenger/input_Zarejestruj konto_login'))
+
+WebUI.click(findTestObject('logowanie_edycja_Page_PSTO webMessenger - Zalogowano/img_Zarejestruj konto_profile'))
+
+WebUI.setText(findTestObject('logowanie_edycja_Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editSurname'), '987!+')
+
+WebUI.scrollToElement(findTestObject('logowanie_edycja_Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'), 2)
+
+WebUI.click(findTestObject('logowanie_edycja_Page_PSTO webMessenger - Zalogowano/input_Wybierz nowy avatar_editBttn'))
+
+value_text = WebUI.getAttribute(findTestObject('logowanie_edycja_Page_PSTO webMessenger - Zalogowano/input_Zmien dane_editSurname'), 'value')
+
+WebUI.verifyNotEqual('987!+', value_text, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.closeBrowser()
+
